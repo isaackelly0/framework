@@ -5,3 +5,11 @@
 .container {
   display: grid;
 }
+.btn {
+  border: hidden;
+  border-radius: 5px;
+  &-red {
+    background-color: red;
+    color: white;
+  }
+}
