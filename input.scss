@@ -1,15 +1,48 @@
-* {
+// norse font
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap") * {
   padding: 0;
   margin: 0;
 }
 .container {
-  display: grid;
+  display: inline-flex;
+  justify-content: center;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 .btn {
   border: hidden;
-  border-radius: 5px;
+  border-radius: 0.2em;
+  color: white;
+  &-white {
+    background-color: white;
+    color: black;
+  }
   &-red {
     background-color: red;
-    color: white;
+  }
+  &-blue {
+    background-color: blue;
+  }
+  &-yellow {
+    background-color: yellow;
+    color: black;
+  }
+  &-green {
+    background-color: green;
+  }
+  &-purple {
+    background-color: purple;
+  }
+  &-orange {
+    background-color: #cc9543;
+  }
+  &-black {
+    background-color: black;
+  }
+  &-teal {
+    background-color: #6abfc3;
   }
 }

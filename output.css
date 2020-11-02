@@ -3,8 +3,41 @@
   margin: 0;
 }
 
-.container {
-  display: grid;
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.btn {
+  border: hidden;
+  border-radius: 5px;
+  color: white;
+}
+.btn-white {
+  background-color: white;
+  color: black;
+}
+.btn-red {
+  background-color: red;
+}
+.btn-blue {
+  background-color: blue;
+}
+.btn-yellow {
+  background-color: yellow;
+  color: black;
+}
+.btn-green {
+  background-color: green;
+}
+.btn-purple {
+  background-color: purple;
+}
+.btn-orange {
+  background-color: orange;
+}
+.btn-black {
+  background-color: black;
 }
 
 /*# sourceMappingURL=output.css.map */
