@@ -1,4 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap");
+@font-face {
+  font-family: "Norse-Bold";
+  src: url("../Norse-Bold.otf") format("opentype");
+}
 * {
   padding: 0;
   margin: 0;
@@ -6,6 +10,7 @@
 
 .logo {
   color: #cc9543;
+  font-family: "Norse-Bold";
 }
 
 .container {
@@ -123,6 +128,7 @@
     visibility: visible;
     display: flex;
     justify-content: space-evenly;
+    list-style: none;
   }
 
   .col-md-1 {
