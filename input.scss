@@ -4,6 +4,8 @@ $orange: #cc9543;
 * {
   padding: 0;
   margin: 0;
+  list-style: none;
+  text-align: center;
 }
 .logo {
   color: $orange;
@@ -19,6 +21,14 @@ $orange: #cc9543;
 }
 .col {
   margin: 0 15px;
+}
+.card {
+  width: 100%;
+  display: inline-grid;
+  justify-content: center;
+  * {
+    margin: 20px 0;
+  }
 }
 .btn {
   border: hidden;
@@ -105,7 +115,8 @@ $orange: #cc9543;
     }
   }
   .card {
-    display: inline-flex;
+    width: 100%;
+    display: inline-grid;
     justify-content: center;
   }
 }
@@ -198,7 +209,7 @@ $orange: #cc9543;
       width: 100%;
     }
   }
-  .card {
+  .profile {
     display: flex;
     justify-content: space-between;
   }
