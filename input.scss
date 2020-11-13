@@ -1,6 +1,11 @@
 // norse font
+$odin-font-path: "../Norse-Bold.otf";
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap");
 $orange: #cc9543;
+@font-face {
+  font-family: "Norse-Bold";
+  src: url("../Norse-Bold.otf") format("opentype");
+}
 * {
   padding: 0;
   margin: 0;
@@ -9,6 +14,7 @@ $orange: #cc9543;
 }
 .logo {
   color: $orange;
+  font-family: "Norse-Bold";
 }
 .container {
   display: inline-flex;
@@ -129,6 +135,7 @@ $orange: #cc9543;
       visibility: visible;
       display: flex;
       justify-content: space-evenly;
+      list-style: none;
     }
   }
   .col-md {
