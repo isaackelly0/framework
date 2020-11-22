@@ -100,6 +100,16 @@ $orange: #cc9543;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 100rem;
+    background-color: white;
+    ul {
+      visibility: hidden;
+    }
+  }
+  .foot {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     ul {
       visibility: hidden;
     }
@@ -169,6 +179,15 @@ $orange: #cc9543;
         margin: 0 1em;
         font-weight: bold;
       }
+    }
+  }
+  .foot {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    ul {
+      visibility: visible;
     }
   }
   .profile {
