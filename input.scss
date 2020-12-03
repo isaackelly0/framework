@@ -194,7 +194,6 @@ $orange: #cc9543;
   }
   .profile {
     display: inline-grid;
-    // justify-content: center;
     justify-items: center;
     align-items: center;
     * {
@@ -277,7 +276,6 @@ $orange: #cc9543;
     }
     &-12 {
       width: 100%;
-      // height: 100%;
       display: flex;
       justify-content: center;
       margin-bottom: 2%;
