@@ -21,7 +21,6 @@
 }
 
 .container {
-  display: inline-flex;
   justify-content: center;
   width: 100%;
   margin-top: 5em;
@@ -32,10 +31,11 @@
   flex-wrap: wrap;
   justify-content: space-around;
   width: 100%;
+  margin-bottom: 2rem;
 }
 
 .card {
-  width: 100%;
+  width: 98%;
   height: 100%;
   margin-top: 15px;
   display: inline-grid;
@@ -121,7 +121,7 @@
 
   .profile {
     display: inline-grid;
-    justify-content: center;
+    justify-items: center;
     padding: 2% 0;
   }
 
@@ -193,12 +193,17 @@
   .foot ul {
     visibility: visible;
   }
+  .foot ul li {
+    font-weight: bold;
+  }
 
   .profile {
     display: inline-grid;
-    justify-content: center;
+    justify-items: center;
     align-items: center;
-    padding: 0% 0;
+  }
+  .profile * {
+    margin: 1em 0;
   }
 
   .col-md-1 {
@@ -281,7 +286,7 @@
 
   .profile {
     display: flex;
-    padding: 2% 0;
+    padding: 1% 0;
     justify-content: space-around;
     align-items: center;
   }
